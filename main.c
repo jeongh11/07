@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int flag = 1;
+    int y;
+
+    while (flag != 0)
+    {
+        y = 3;
+        flag = 0;
+    }
+
+    y = 4;
+
+    printf("flag = %d\n", flag);
+    printf("y = %d\n", y);
+
+    return 0;
+}
